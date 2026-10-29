@@ -14,7 +14,7 @@ Beginner-friendly notes on the core building blocks of GenAI apps, with animated
 
 ## 1. 🔤 Tokens
 
-![Tokens animation](assets/tokens.svg)
+![Tokens animation](tokens.svg)
 
 **Plain language:** an LLM does not read letters or words. It reads **tokens**, small chunks of text (a word, part of a word, or punctuation). Each token is mapped to a number (an ID), and the model works on those numbers.
 
@@ -33,7 +33,7 @@ Beginner-friendly notes on the core building blocks of GenAI apps, with animated
 
 ## 2. 🎯 Zero-shot and Few-shot Prompting
 
-![Prompting animation](assets/prompting.svg)
+![Prompting animation](prompting.svg)
 
 **Prompt** = the input you give the model. **Prompt engineering** = writing it so you get reliable output.
 
@@ -71,7 +71,7 @@ Review: "The battery dies so fast." ->
 
 ## 3. 🔌 API
 
-![API animation](assets/api.svg)
+![API animation](api.svg)
 
 **Plain language:** an API is a doorway. Your code sends an HTTP request containing the prompt, and the provider's server runs the model and sends back a response.
 
@@ -113,7 +113,7 @@ print(msg.usage.input_tokens, msg.usage.output_tokens)  # token usage
 
 ## 4. 🔗 MCP (Model Context Protocol)
 
-![MCP animation](assets/mcp.svg)
+![MCP animation](mcp.svg)
 
 **Plain language:** MCP is like **USB-C for AI**. Instead of writing a custom integration for every tool, any MCP-capable AI app can connect to any MCP server in the same standard way.
 
